@@ -1,22 +1,18 @@
 
-/*Navigation bar needs to be Aligned to the left, with the margin having about 20px from the left. The nav should only take up 1/2 of a 1080 screen. Right margin needs to be sale-able. */
 #nav ul{
     padding: 20px 15%  0px 0px;
     border: 0px 100px 0px 0px;
     display: grid;
-    /* grid-template-columns: auto auto auto auto auto auto; */
     grid-template-columns: repeat(6,auto);
 }
 
 #nav a {
     float: left;
-    /* padding: 1px; */
     text-align: center;
 }
 #nav li{
     display: block;
     float: left;
-    /* padding-top: 10px; */
     text-align: center;
 }
 
@@ -37,6 +33,12 @@ grid-template-rows: auto auto;
     padding: 60px;
     margin: 0 auto;
     
+}
+#footer{
+    width: 300px;
+    height: 27px;
+    font-style: rgb(233, 109, 60);
+    border: solid rgb(15, 180, 114);
 }
 
 
